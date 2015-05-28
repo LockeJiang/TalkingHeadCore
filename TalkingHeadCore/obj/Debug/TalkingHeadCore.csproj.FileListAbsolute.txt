@@ -1,0 +1,11 @@
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\bin\Debug\TalkingHeadCore.exe.config
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\bin\Debug\TalkingHeadCore.exe
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\bin\Debug\TalkingHeadCore.pdb
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\obj\Debug\TalkingHeadCore.csprojResolveAssemblyReference.cache
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\obj\Debug\Interop.SpeechLib.dll
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\obj\Debug\TalkingHeadCore.csproj.ResolveComReference.cache
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\obj\Debug\TalkingHeadCore.Properties.Resources.resources
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\obj\Debug\TalkingHeadCore.csproj.GenerateResource.Cache
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\obj\Debug\TalkingHeadCore.exe
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\obj\Debug\TalkingHeadCore.pdb
+C:\Users\Надир\Documents\Visual Studio 2013\Projects\TalkingHeadCore\TalkingHeadCore\obj\Debug\TalkingHeadCore.TalkingHead.resources
