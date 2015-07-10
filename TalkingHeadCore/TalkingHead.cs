@@ -50,9 +50,11 @@ namespace TalkingHeadCore
         private void button1_Click(object sender, EventArgs e)
         {
             parser = new StringParser(Input.Text);
-            
-            this.SayInFile(2, parser.Result);
-            this.Say(2, parser.Result);
+            int voicenum = 2;
+            if (parser.isHaveRussianCharacters())
+                voicenum = 0;
+            this.SayInFile(voicenum, parser.Result);
+            this.Say(voicenum, parser.Result);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -82,6 +84,7 @@ namespace TalkingHeadCore
         {
             try
             {
+                voice.Voice = voice.GetVoices("gender=female").Item(voiceNum);
                 voice.Speak(input, SpeechVoiceSpeakFlags.SVSFlagsAsync);
             }
             catch (Exception exp)

@@ -70,5 +70,15 @@ namespace TalkingHeadCore
             else
                 return null;
         }
+
+        public Boolean isHaveRussianCharacters()
+        {
+            foreach(char c in result)
+            {
+                if ((c >= 'а' && c <= 'я') || (c >= 'А' && c <= 'Я'))
+                    return true;
+            }
+            return false;
+        }
     }
 }
