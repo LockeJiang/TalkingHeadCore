@@ -32,6 +32,9 @@
             this.Input = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.startCount = new System.Windows.Forms.Label();
+            this.Stop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -71,17 +74,49 @@
             this.label2.Text = "{normal}, {angry}, {sad}, {happy}, {revulsion}, {fear}, {surprise}, {interest}, {" +
     "shame}";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(370, 466);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Номер запуска";
+            // 
+            // startCount
+            // 
+            this.startCount.AutoSize = true;
+            this.startCount.Location = new System.Drawing.Point(461, 466);
+            this.startCount.Name = "startCount";
+            this.startCount.Size = new System.Drawing.Size(35, 13);
+            this.startCount.TabIndex = 5;
+            this.startCount.Text = "label4";
+            // 
+            // Stop
+            // 
+            this.Stop.Location = new System.Drawing.Point(94, 419);
+            this.Stop.Name = "Stop";
+            this.Stop.Size = new System.Drawing.Size(75, 23);
+            this.Stop.TabIndex = 6;
+            this.Stop.Text = "Stop";
+            this.Stop.UseVisualStyleBackColor = true;
+            this.Stop.Click += new System.EventHandler(this.Stop_Click);
+            // 
             // TalkingHead
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(566, 480);
+            this.Controls.Add(this.Stop);
+            this.Controls.Add(this.startCount);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Input);
             this.Controls.Add(this.button1);
             this.Name = "TalkingHead";
             this.Text = "TalkingHead";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TalkingHead_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -94,6 +129,9 @@
         private System.Windows.Forms.TextBox Input;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label startCount;
+        private System.Windows.Forms.Button Stop;
     }
 }
 
